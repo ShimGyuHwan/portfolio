@@ -1,0 +1,44 @@
+.week_box{
+
+    width:1200px;
+    height:150px;
+    position:relative;
+}
+
+.week_box >span{
+    width:150px;
+    height:130px;
+    margin-top:10px;
+    background-image: url("../contents/week_part.png");
+    position: absolute;
+}
+.week_ul{
+    margin-top:10px;
+    width:1050px;
+    height:130px; 
+    position:absolute;
+    left:150px;
+    
+}
+.week_ul>li{
+
+    width:210px;
+    height:130px;
+    float: left;
+    
+}
+.week_ul>li>span{
+    width:210px;
+    height:30px;
+    background-color: #000000;
+    color:#fce207;
+    font-size:12px;
+    font-family: 'Noto Sans KR', sans-serif;
+    position:absolute; 
+    bottom:0;
+    text-align: center;
+    line-height: 30px;
+    display: none;
+    
+    
+}

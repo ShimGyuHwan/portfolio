@@ -1,0 +1,67 @@
+.ul_menu{
+
+    width:inherit;
+    height:inherit;
+       
+}
+
+.ul_menu>li:nth-child(1){
+    width:inherit;
+    height:90px;
+    padding-top:10px;
+}
+.ul_menu>li:nth-child(1)>span{
+    width:180px;
+    height:55px;
+    background-image: url("../images/ocn_logo.png");
+    margin:0 auto;
+    cursor: pointer;
+    
+}
+
+.ul_menu>li:nth-child(2){
+    width:inherit;
+    height:30px;
+    position: relative;
+    
+}
+
+.ol_menu{
+    width:inherit;
+    height:30px;
+    position:absolute;
+    z-index: 5;
+
+}
+
+.ol_menu>li{
+
+    width:240px;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    font-size:16px;
+    float:left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+}
+.ul_menu2{
+
+
+    width:inherit;
+    height:auto;
+    display: none;  
+
+
+}
+.ul_menu2>a>li{
+    width:inherit;
+    height:25px;
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    background-color: rgba(240,240,240,0.5);
+ 
+  
+
+}

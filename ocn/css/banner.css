@@ -1,0 +1,86 @@
+@charset "utf-8";
+.banner_part{
+    position: absolute;
+    background-color: grey;
+    height:500px;
+    position: relative;
+    overflow: hidden;
+ 
+}
+.box{
+    width:1200px;
+    height:500px;
+   
+   
+    
+}
+
+.left{
+    width:60px;
+    height:60px;
+    position:absolute;
+    margin-top:220px;
+    cursor: pointer;
+    background-image: url("../banner/leftbtn.png");
+}
+.right{
+    width:60px;
+    height:60px;
+    position:absolute;
+    margin-top:220px;
+    cursor: pointer;
+    background-image: url("../banner/rightbtn.png");
+    right:0;
+}
+.ul_banner{
+
+    /*display: inline-block;*/
+   
+    height:500px;
+    position:absolute;
+    
+    
+   
+   
+
+}
+
+.ul_banner>li{
+    width:1200px;
+    height:inherit;
+    float:left;
+    
+   
+    
+    
+    
+}
+img{
+    display: flex;
+}
+.disc_box{
+width:60px;
+height:10px;
+
+position:absolute;
+right:0;
+top:0;
+margin-top:15px;
+margin-right:15px;
+
+}
+.disc{
+    width:inherit;
+    height:inherit;
+    position:absolute;
+}
+.disc>li{
+    
+    width:10px;
+    height:10px;
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+    margin-left:5px;
+    cursor: pointer;
+}

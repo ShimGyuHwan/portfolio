@@ -1,0 +1,8 @@
+.ad{
+
+    width:inherit;
+    height:120px;
+    background-image: url("../banner/middlebanner.png");
+    margin-top:20px;
+    cursor: pointer;
+}
